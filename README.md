@@ -1,6 +1,6 @@
 # README #
 
-This project creates a low cost network enabled environmental monitoring device for monitoring (primarily) the temperature of our server room. The goals of this project are more inline with an industrial monitoring system and not something like a home automation environment. This is why a ethernet enabled Raspberry Pi was used and not an existing ESP32 based solution.
+This project creates a low cost ( < $100) network enabled environmental monitoring device for monitoring the temperature and humidity of our server room. The goals of this project are more inline with an industrial monitoring system and not something like a home automation environment. This is why a ethernet enabled Raspberry Pi was used and not an existing ESP32 based solution.
 
 It's based on projects such as this one:
 
@@ -25,7 +25,7 @@ A simple query to the IP address will cause it to query all configured sensors a
 
 * Raspberry Pi (any version should work, verified with model 2B and newer)
 * Raspberry Pi case (Consider your mounting location and method)
-* DHT-11 Temperature and humidity Sensor
+* DHT-11 Temperature and humidity Sensor (a single Pi can support multiple sensors)
 
 Optional:
 
